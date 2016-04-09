@@ -53,7 +53,7 @@ if (TARGET === 'start' || !TARGET) {
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
       new NpmInstallPlugin({
-        save: true // --save
+        saveDev: true // --saveDev
       })
     ]
   });
